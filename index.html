@@ -115,12 +115,17 @@
 
 		<p style="color: white;font-family: 'Rubik', sans-serif; font-size: 1.2rem; margin-top: 60px; margin-bottom: 5px;">Para assistir o vídeo e mudar de vida basta clicar abaixo:</p>
 
-		<div class="bt"><a>CLIQUE AQUI PARA CONTINUAR</a></div>
+		<div class="bt" id="bt"><a onclick="window.location.href = 'https://www.lototrader.com.br/?src=COMDELAYNOBOTAO&' + location.search.slice(1)">CLIQUE AQUI PARA CONTINUAR</a></div>
 
 		<div class="foot" >
 			<a href="termosdeuso.html" target="_blank" style="text-decoration: none;color: #277F94">Termos de uso</a> • <a href="politicadeprivacidade.html" target="_blank" style="text-decoration: none; color: #277F94;">Política de privacidade</a> • <a>Contato</a>
 		</div>
 
 	</section>	
+
+
+	<script type="text/javascript">
+		document.getElementById("bt").href = ""
+	</script>
 </body>
 </html>
